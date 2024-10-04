@@ -1,0 +1,48 @@
+form{
+  width: 50%;
+  margin: 30px auto;
+  text-align: center;
+  border-bottom-color: darkmagenta;
+  scrollbar-color : darkmagenta;
+  -webkit-text-fill-color: lightpink;
+}
+input{
+  margin-bottom: 10px;
+  background-color: mediumpurple;
+  color: darkmagenta;
+  border-color: darkmagenta;
+}
+input[type="button"]{
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: mediumpurple;
+  border-color: darkmagenta;
+}
+input[type="button"]:active{
+  background-color: darkmagenta;
+}
+th{
+  print-color-adjust: lightpink;
+  background-color: mediumpurple;
+  border-color: darkmagenta;
+  -webkit-text-fill-color: lightpink;
+}
+tbody{
+  border-color: darkmagenta;
+  border-bottom-color: darkmagenta;
+  background-color: mediumpurple;
+  -webkit-text-fill-color: darkmagenta;
+  -webkit-tap-highlight-color: lightpink;
+}
+td{
+  background-blend-mode: hard-light;
+  background-color: rgb(251, 191, 234);
+}
+.btn{
+  background-color: mediumpurple;
+  border-color: darkmagenta;
+  cursor: pointer;
+}
+.btn:active{
+  background-color: lightpink;
+}
